@@ -12,6 +12,7 @@ because the official library doesn't work with OMP v4.0.
 
 import os
 import logging
+import re
 
 try:
 	from xml.etree import cElementTree as etree
